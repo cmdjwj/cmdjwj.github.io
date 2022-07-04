@@ -3,5 +3,3 @@
 [Blog](./blog/)
 
 [NEsTs](./nests/)
-
-在本地环境下注意将博客文件夹（jwjblog）与网站文件夹（jwjawa.github.io）放到同一目录下。
