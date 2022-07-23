@@ -49,6 +49,7 @@ p{
 .center > .url > p > a{
     color: #777;
     text-decoration: none;
+    font-size: 20px;
 }
 .center > .url > p > a:hover{
     border-bottom: 1px dotted #777;
