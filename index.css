@@ -5,7 +5,7 @@
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", Arial, sans-serif;
 }
 body {
-    background: url('./bg.png');
+    background: url('/img/background.png');
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -35,21 +35,26 @@ p{
 }
 .center > img{    
     display: block;
-    margin: 20px auto;
+    margin: 10px auto 30px auto;
     width: 150px;
     border-radius: 50%;
 }
-.center > h1,.center > p{
+.center > h1,.center > p,.center > .url > p{
     text-align: center;
     color: #888;
+}
+.center > .url > p{
+    margin: 15px;
+}
+.center > .url > p > a{
+    color: #777;
+    text-decoration: none;
+}
+.center > .url > p > a:hover{
+    border-bottom: 1px dotted #777;
 }
 @media screen and (max-width:400px){
     .center{
         width: 100%;
     }
 }
-
-/*
-    逻辑：
-    宽度720以上：
-*/
