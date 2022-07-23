@@ -1,0 +1,55 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", Arial, sans-serif;
+}
+body {
+    background: url('./bg.png');
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.1;
+}
+h1{
+    line-height: 50px;
+    font-size: 2rem;
+    margin: 10px;
+}
+p{
+    padding: .27em 0;
+    line-height: 1.75;
+}
+.center{
+    background: rgba(255,255,255,0.6);
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 10px #cccccc;
+    margin: auto;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.center > img{    
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 50%;
+}
+.center > h1,.center > p{
+    text-align: center;
+    color: #888;
+}
+@media screen and (max-width:400px){
+    .center{
+        width: 100%;
+    }
+}
+
+/*
+    逻辑：
+    宽度720以上：
+*/
